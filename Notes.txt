@@ -1,7 +1,12 @@
 1.) React.createElement(html_tag, object_like_ids_in_{}, child_object);
-It returns an JavaScript object. 
+    It returns an JavaScript object. 
 
 2.) root.render(object_name);
-It converts react object into normal html tag and send it to virtual dom.
+    It converts react object into normal html tag and send it to virtual dom.
 
 3.) We can create nested react element structure.
+
+4.) Pracel: It is a zero configuration build tool. It's a bundler to bundle our React app. Best way to explore it from it's website.
+    website: https://parceljs.org/
+
+5.) npx pacel build index.html to build production build for our application
