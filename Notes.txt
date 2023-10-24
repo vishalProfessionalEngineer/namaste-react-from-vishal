@@ -9,4 +9,65 @@
 4.) Pracel: It is a zero configuration build tool. It's a bundler to bundle our React app. Best way to explore it from it's website.
     website: https://parceljs.org/
 
-5.) npx pacel build index.html to build production build for our application
+5.) npx pacel build index.html to build production build for our application.
+
+6.) Transitive Dependency: When a depedency depends on another depedency. That kind of depedency known as Transitive Dependency.
+
+7.) We can provide running cmd in package.json inside scripts tag.
+    npm run start and npm start both are same, but for buliding it for production we need to write npm run build.
+
+8.) JSX -> Java Script Syntax Extension
+
+9.) Components: There are two types of Components in react.
+    A-> Class Based Component       B-> Functional Component
+
+
+
+Learning class code: 
+{/* 
+<div id="parent">
+    <div id="child1">
+        <h1>This is H1 Heading</h1>
+        <h2>This is H2 Heading</h2>
+    </div>
+    div id="child2">
+        <h1>This is H1 Heading</h1>
+        <h2>This is H2 Heading</h2>
+    </div>
+</div> 
+const heading = React.createElement(
+    "h1",
+    { id: "heading", xyz: "abc" }, 
+    "Welcome to React");
+
+const parent = React.createElement(
+    "div",
+    {id:"parent"},
+    [
+        React.createElement("div", {id:"child1"},[
+            React.createElement("h1", {}, "This is H1 Heading"),
+            React.createElement("h2", {}, "This is H2 Heading")
+        ]
+        ),
+        React.createElement("div", {id:"child2"},[
+            React.createElement("h1", {}, "This is H1 Heading"),
+            React.createElement("h2", {}, "This is H2 Heading")
+        ]
+        )
+    ]
+);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+console.log(parent);
+root.render(parent);
+*/}
+
+import React from "react";
+import ReactDOM from "react-dom/client"
+
+const HeadingComponent = () => {
+    return <h1 id="heading">Namaste Reacts</h1>
+};
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(<HeadingComponent />)

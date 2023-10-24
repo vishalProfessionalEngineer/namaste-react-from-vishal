@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "This is react app learning from Akshay Saini",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -18,5 +20,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browsersList":[
+    "last 2 versionsß"
+  ]
 }
