@@ -1,4 +1,4 @@
-# Namater React
+# Namaste React Developers 👩‍🎨
 
 # Food Ordering App
 
