@@ -39,3 +39,7 @@ React hooks is a normal javascript function given by React.
 
 
 # Whenever state variable changes, react rerender the component.
+
+# Routing in webapps
+    - Client side routing
+    - Server side routing
